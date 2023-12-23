@@ -1,5 +1,5 @@
-﻿//Зад. 44. Нап команду для создания послед-ти Фибоначчи.
-int[] Febanachi (int N)
+﻿// № 44. Нап команду для создания послед-ти Фибоначчи.
+int[] Fibonachchi (int N)
 {
     int[] array = new int[N];
     array[0] = 0;
@@ -10,4 +10,4 @@ int[] Febanachi (int N)
     }
     return array;
 }
-Console.Write(string.Join(" ", Febanachi(8)));
+Console.Write(string.Join(" ", Fibonachchi(8)));
